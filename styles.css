@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Topbar */
+.topbar {
+    background: #f5b335;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+.logo {
+    font-weight: bold;
+    border: 2px solid #000;
+    padding: 5px 10px;
+}
+
+.lang {
+    font-weight: bold;
+}
+
+/* Hero */
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+/* Intro */
+.intro {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.intro h1 {
+    color: #f5b335;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    margin-bottom: 15px;
+}
+
+.cta-text {
+    margin-top: 25px;
+}
+
+/* Locations */
+.locations {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.locations h2 {
+    color: #f5b335;
+    margin-bottom: 20px;
+}
+
+.locations button {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 15px auto;
+    padding: 15px;
+    background: #e5e5e5;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.primary {
+    background: #f5b335;
+    font-weight: bold;
+}
+
+/* Events */
+.events {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.events h2 {
+    color: #f5b335;
+    margin-bottom: 20px;
+}
+
+.events img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Quote */
+.quote {
+    text-align: center;
+    padding: 40px 20px;
+    font-style: italic;
+}
+
+.quote span {
+    font-style: normal;
+}
+
+/* Footer */
+footer {
+    background: #fff3c4;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    flex-wrap: wrap;
+}
+
+footer div {
+    margin-bottom: 20px;
+}

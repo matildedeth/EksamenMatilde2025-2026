@@ -1,0 +1,160 @@
+:root {
+    --yellow: #f5b400;
+    --black: #000;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Courier New", monospace;
+    background: var(--black);
+    color: var(--white);
+    line-height: 1.6;
+}
+
+/* HEADER */
+.topbar {
+    background: var(--yellow);
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.lang {
+    font-weight: bold;
+}
+
+/* NAV */
+.main-nav {
+    background: #111;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0.7rem;
+}
+
+.main-nav li {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+/* HERO */
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+/* INTRO */
+.intro {
+    text-align: center;
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.intro h2 {
+    color: var(--yellow);
+    margin-bottom: 2rem;
+}
+
+/* LOCATIONS */
+.locations {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.location-card img {
+    width: 100%;
+    background: #fff;
+}
+
+.location-card button {
+    margin-top: 1rem;
+    background: var(--yellow);
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* EVENTS */
+.events {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.events img {
+    max-width: 700px;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.cta {
+    background: var(--yellow);
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* QUOTE */
+.quote {
+    text-align: center;
+    padding: 4rem 2rem;
+    font-style: italic;
+}
+
+.quote span {
+    display: block;
+    margin-top: 1rem;
+}
+
+/* FOOTER */
+footer {
+    background: #fff6cc;
+    color: #000;
+    padding: 3rem 2rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 120px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
